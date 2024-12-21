@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Museum Tour</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="welcome-container">
+            <h1>Welcome to the Virtual Museum Tour</h1>
+            <p>Explore our fascinating exhibits on Science & Technology.</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Exhibit 1 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="first-telephone-758x426.jpg" alt="First Telephone" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 1: The First Telephone</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>The invention of the first telephone by Alexander Graham Bell in 1876.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>This invention revolutionized communication and connected the world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 2 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="Wright-Flyer-2-scaled.jpg" alt="Wright Brothers' Airplane" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 2: The Wright Brothers' First Airplane</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>The first successful powered aircraft, flown by the Wright brothers in 1903.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>This achievement laid the foundation for modern aviation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 3 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="2371_2016-12-16_10.08.49.jpg" alt="The Atom Model" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 3: The Atom Model</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>A representation of the atomic model, developed by scientists like Bohr and Rutherford.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>This model helped shape quantum mechanics and our understanding of matter.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 4 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="v3u4sKi5CBJDGspMREjRnC-1200-80.jpg" alt="The Steam Engine" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 4: The Steam Engine</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>The invention of the steam engine by James Watt, changing the course of industrial history.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>This invention powered the Industrial Revolution and transformed economies worldwide.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 5 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="hq720.jpg" alt="Electric Lightbulb" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 5: The Electric Lightbulb</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>The invention of the electric lightbulb by Thomas Edison in 1879.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>This invention made it possible to work and live in the dark hours, transforming society.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 6 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="tandy_timeline_b.jpg" alt="First Computer" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 6: The First Computer</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>The first mechanical computer by Charles Babbage in the 1830s.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>This invention laid the groundwork for the computing systems we rely on today.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 7 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="0_540_960_0_70__Galleries_20180720094806_crn-14_Trevor_Pearcey_standing_operating_CSIRAC_source_CSIRO_Publishing.jpg" alt="The Internet" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 7: The Invention of the Internet</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>The internet, a global network revolutionizing how we communicate, created by various pioneers.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>Its rapid development has shaped modern society and created the connected world we live in today.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 8 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="6374052954361065316641211.jpg" alt="The Microscope" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 8: The Microscope</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>The microscope, invented by Antonie van Leeuwenhoek, has revealed the world of the tiny and invisible.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>It has expanded our understanding of biology, chemistry, and medicine.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 9 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="NASM-NASM2013-02525.jpg" alt="The Space Shuttle" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 9: The Space Shuttle</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>The Space Shuttle, developed by NASA, revolutionized space exploration and reusable spacecraft.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>The shuttle was critical to assembling the International Space Station.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 10 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="tesla-giga-berlin-hits-5-000-model-y-builds-week-march-25-2023.jpg" alt="Electric Car" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 10: The Electric Car</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>The electric car, pioneered by Tesla, is transforming the automotive industry and promoting sustainability.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>Electric vehicles are key to reducing carbon emissions and combating climate change.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 11 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="DSC_9053-1200x801.jpg" alt="Solar Panels" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 11: Solar Panels</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>Solar panels are key to harnessing renewable energy and reducing reliance on fossil fuels.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>They have become a cornerstone in the fight against climate change.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 12 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="c7bjuv3s.jpg" alt="The Smartphone" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 12: The Smartphone</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>The smartphone has revolutionized communication, entertainment, and productivity.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>Smartphones are now an essential part of everyday life for billions of people.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 13 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="crispr_cas9_genterapi_istock.jpg" alt="CRISPR Technology" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 13: CRISPR Gene Editing</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>CRISPR is a revolutionary gene-editing technology that allows precise modification of DNA.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>It has the potential to cure genetic diseases and reshape medicine.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 14 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="WAIC-2024.webp" alt="Artificial Intelligence" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 14: Artificial Intelligence</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>Artificial Intelligence (AI) is transforming industries and pushing the boundaries of what machines can do.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>AI applications range from healthcare to autonomous vehicles and more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exhibit 15 -->
+        <div class="exhibit-container">
+            <div class="exhibit">
+                <div class="exhibit-header">
+                    <img src="1696459881811.png" alt="Quantum Computing" class="exhibit-image" onclick="openFullScreen(this)">
+                    <h2>Exhibit 15: Quantum Computing</h2>
+                </div>
+                <div class="exhibit-description">
+                    <p>Quantum computing promises to revolutionize fields such as cryptography, medicine, and AI.</p>
+                    <button class="learn-more" onclick="toggleDetails(this)">Learn More</button>
+                    <div class="extra-details">
+                        <p>Quantum computers leverage quantum mechanics to process information exponentially faster than classical computers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Thank you for visiting the Virtual Museum Tour. We hope you enjoyed your experience!</p>
+    </footer>
+
+    <!-- Fullscreen Modal for Image Display -->
+    <div class="fullscreen-modal" id="fullscreenModal">
+        <div class="close" onclick="closeFullScreen()">×</div>
+        <img id="fullscreenImage" src="" alt="Full Screen Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
